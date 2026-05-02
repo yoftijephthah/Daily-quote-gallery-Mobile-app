@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Active State (White in dark blue mode, Black in light mode - using theme attribute) -->
+    <item android:color="?android:attr/textColorPrimary" android:state_checked="true" />
+    <!-- Inactive State (Greyed out for modern look) -->
+    <item android:alpha="0.6" android:color="?android:attr/textColorPrimary" />
+</selector>
