@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Group to center, scale down, and ensure quotes aren't cropped -->
+    <group
+        android:translateX="25.5"
+        android:translateY="34.5"
+        android:scaleX="0.75"
+        android:scaleY="0.75">
+        <!-- Left Quote (Blue) -->
+        <path
+            android:fillColor="#224E62"
+            android:pathData="M0,0 h32 v26 c0,15 -10,26 -32,26 v-12 c12,0 20,-8 20,-14 h-20 z" />
+        <!-- Right Quote (Red) -->
+        <path
+            android:fillColor="#F64E4E"
+            android:pathData="M44,0 h32 v26 c0,15 -10,26 -32,26 v-12 c12,0 20,-8 20,-14 h-20 z" />
+    </group>
+</vector>
